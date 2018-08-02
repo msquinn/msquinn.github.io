@@ -17,6 +17,14 @@
    height="54.418633"
    viewBox="0 0 550 54.41863"
    sodipodi:docname="Brecreation_Final_logo(WHT-MSQ-edit).svg">
+   <defs>
+  <style type="text/css">
+    @font-face {
+      font-family: Nuetra Display Tilting;
+      src: url('~/fonts/Nuetra_Display_Tilting.otf');
+    }
+  </style>
+</defs>
   <metadata
      id="metadata4142">
     <rdf:RDF>
