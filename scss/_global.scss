@@ -44,6 +44,14 @@ h6 {
   padding-top: 10em;
   padding-bottom: 20em;
 }
+.bg-video {
+  background-color: $night !important;
+  background-image: url('../img/Brec-photos/Midnight.jpg');
+  background-size:contain;
+  background-position: top;
+  padding-top: 13.5em;
+  padding-bottom: 13.5em;
+}
 
 .bg-dark {
   background-color: $gray-900 !important;
