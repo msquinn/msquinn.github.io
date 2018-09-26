@@ -37,7 +37,12 @@ h6 {
 }
 
 .bg-primary {
-  background-color: #007bff !important;
+  background-color: $night !important;
+  background-image: url('../img/Brec-photos/Midnight.jpg');
+  background-size:contain;
+  background-position: top;
+  padding-top: 10em;
+  padding-bottom: 20em;
 }
 
 .bg-dark {

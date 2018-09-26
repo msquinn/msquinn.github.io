@@ -29,3 +29,19 @@
     box-shadow: 0 0 0 0.2rem rgba(240, 95, 64,.5) !important;
   }
 }
+.btn-night {
+  background-color: $night;
+  border-color: $night;
+  width: 50%;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: $primary;
+    background-color: darken($night, 5%) !important;
+  }
+  &:active,
+  &:focus {
+    box-shadow: 0 0 0 0.2rem rgba(240, 95, 64,.5) !important;
+  }
+}

@@ -11,7 +11,7 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #ffc107;
+  border-color: #e04242;
 }
 
 hr.light {
@@ -19,14 +19,14 @@ hr.light {
 }
 
 a {
-  color: #ffc107;
+  color: #e04242;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 a:hover {
-  color: #ffc106;
+  color: #e04242;
 }
 
 h1,
@@ -39,7 +39,12 @@ h6 {
 }
 
 .bg-primary {
-  background-color: #007bff !important;
+  background-color: #153b4c !important;
+  background-image: url("../img/Brec-photos/Midnight.jpg");
+  background-size: contain;
+  background-position: top;
+  padding-top: 10em;
+  padding-bottom: 20em;
 }
 
 .bg-dark {
@@ -82,7 +87,7 @@ img::-moz-selection {
 
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-  background-color: #fff;
+  background-color: #153b4c;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -92,12 +97,12 @@ img::-moz-selection {
 #mainNav .navbar-brand {
   font-weight: 700;
   text-transform: uppercase;
-  color: #ffc107;
+  color: #e04242;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #ffc106;
+  color: #e04242;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
@@ -110,12 +115,12 @@ img::-moz-selection {
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-  color: #ffc107;
+  color: #e04242;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-  color: #ffc107 !important;
+  color: #e04242 !important;
   background-color: transparent;
 }
 
@@ -130,31 +135,31 @@ img::-moz-selection {
     background-color: transparent;
   }
   #mainNav .navbar-brand {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(21, 59, 76, 0.7);
   }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: #fff;
+    color: #153b4c;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
     padding: 0.5rem 1rem;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(21, 59, 76, 0.7);
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #fff;
+    color: #153b4c;
   }
   #mainNav.navbar-shrink {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-    background-color: #fff;
+    background-color: #153b4c;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #ffc107;
+    color: #e04242;
   }
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #ffc106;
+    color: #e04242;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
@@ -162,13 +167,13 @@ img::-moz-selection {
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #ffc107;
+    color: #e04242;
   }
 }
 
 header.masthead {
   padding-top: 10rem;
-  padding-bottom: calc(10rem - 56px);
+  padding-bottom: 15rem;
   background-image: url("../img/header.jpg");
   background-position: center center;
   -webkit-background-size: cover;
@@ -234,7 +239,7 @@ header.masthead p {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(255, 193, 7, 0.9);
+  background: rgba(224, 66, 66, 0.9);
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -282,7 +287,7 @@ header.masthead p {
 }
 
 .text-primary {
-  color: #ffc107 !important;
+  color: #e04242 !important;
 }
 
 .btn {
@@ -298,16 +303,31 @@ header.masthead p {
 }
 
 .btn-primary {
-  background-color: #ffc107;
-  border-color: #ffc107;
+  background-color: #e04242;
+  border-color: #e04242;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: #edb100 !important;
+  background-color: #dc2c2c !important;
 }
 
 .btn-primary:active, .btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+}
+
+.btn-night {
+  background-color: #153b4c;
+  border-color: #153b4c;
+  width: 50%;
+}
+
+.btn-night:hover, .btn-night:focus, .btn-night:active {
+  color: #e04242;
+  background-color: #0f2b38 !important;
+}
+
+.btn-night:active, .btn-night:focus {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
 }
 
@@ -318,9 +338,10 @@ header.masthead p {
 @media screen and (max-width: 700px) {
   .logo-main {
     max-width: 100%;
+    padding-top: 10em;
   }
 }
 
 .spotify-button {
-  margin-bottom: 25px;
+  margin-bottom: 5em;
 }
