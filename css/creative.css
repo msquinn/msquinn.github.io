@@ -320,6 +320,7 @@ header.masthead p {
   background-color: #153b4c;
   border-color: #153b4c;
   width: 50%;
+  max-width: 162.6px;
 }
 
 .btn-night:hover, .btn-night:focus, .btn-night:active {
