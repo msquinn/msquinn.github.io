@@ -56,3 +56,10 @@
     height:75%;
   }
 }
+.video-title{
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  color: $primary !important;
+  @include sans-serif-font;
+}

@@ -40,7 +40,6 @@ h6 {
 
 .bg-primary {
   background-color: #153b4c !important;
-  background-image: url("../img/Brec-photos/Midnight.jpg");
   background-size: contain;
   background-position: top;
   padding-top: 10em;
@@ -49,7 +48,7 @@ h6 {
 
 .bg-video {
   background-color: #153b4c !important;
-  background-image: url("../img/Brec-photos/Midnight.jpg");
+  background-image: url("../img/Brec-photos/IMG_1775.JPG");
   background-size: contain;
   background-position: top;
   padding-top: 13.5em;
@@ -353,6 +352,14 @@ header.masthead p {
     max-width: 75%;
     height: 75%;
   }
+}
+
+.video-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  color: #e04242 !important;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 .logo-main {
