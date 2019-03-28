@@ -1,29 +1,21 @@
 {
-  "title": "Creative",
-  "name": "startbootstrap-creative",
-  "version": "4.1.1",
-  "description": "Creative is a stylish one page HTML theme for Bootstrap.",
+  "title": "Brecreation",
+  "name": "Brecreation-site",
+  "version": "5.0.1",
+  "description": "Website for the rapper formally known as Brecreation",
   "keywords": [
-    "css",
-    "sass",
-    "html",
-    "responsive",
-    "theme",
-    "template"
+    "Hip Hop",
+    "Rap",
+    "Maryland",
+    "301",
+    "Pigeon",
+    "Artist"
   ],
-  "homepage": "https://startbootstrap.com/template-overviews/creative",
-  "bugs": {
-    "url": "https://github.com/BlackrockDigital/startbootstrap-creative/issues",
-    "email": "feedback@startbootstrap.com"
-  },
   "license": "MIT",
-  "author": "Start Bootstrap",
-  "contributors": [
-    "David Miller (http://davidmiller.io/)"
-  ],
+  "author": "Matt Quinn",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BlackrockDigital/startbootstrap-creative.git"
+    "url": "git+https://github.com/msquinn/msquinn.github.io"
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
