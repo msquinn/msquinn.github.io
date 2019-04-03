@@ -32,8 +32,14 @@
 
     <!-- Custom styles for this template -->
     <link href="css/creative.min.css" rel="stylesheet">
+    <!-- Snipcart Integration-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 
-  </head>
+    <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="MmNiM2EyZmQtNDUyYi00ZTE4LWE2YjYtZmRmMWZmOGE3MjQ5NjM2ODk0MDA1NTAyNzgwNjI2"></script>
+
+    <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" type="text/css" rel="stylesheet" />
+
+</head>
 
   <body id="page-top">
 
@@ -89,7 +95,7 @@
               <iframe class="video-box" src="https://www.youtube.com/embed/UrLtgsXGVMk"
                frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
              </div>
-            <a class="btn btn-night btn-xl js-scroll-trigger" href="#services">More</a>
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#services">More</a>
           </div>
 
       </div>
@@ -133,119 +139,27 @@
               <p class="text-muted mb-0">Listen on Soundcloud</p>
             </div>
           </div>
-        <!--  <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-heart text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Made with Love</h3>
-              <p class="text-muted mb-0">You have to make your websites with love these days!</p>
-            </div>
-          </div>-->
         </div>
       </div>
     </section>
-
-<!--    <section class="p-0" id="portfolio">
-      <div class="container-fluid p-0">
-        <div class="row no-gutters popup-gallery">
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/Brec-photos/Love_Me_cover.jpg">
-              <img class="img-fluid" src="img/Brec-photos/Love_Me_cover.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Single
-                  </div>
-                  <div class="project-name">
-                    Love Me
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/Brec-photos/Reach_Out_cover.jpg">
-              <img class="img-fluid" src="img/Brec-photos/Reach_Out_cover.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Single
-                  </div>
-                  <div class="project-name">
-                    Reach Out
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/Brec-photos/Strangers_cover.jpg">
-              <img class="img-fluid" src="img/Brec-photos/Strangers_cover.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Single
-                  </div>
-                  <div class="project-name">
-                    Strangers
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-         <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/Brec-photos/ignited.JPG">
-              <img class="img-fluid" src="img/Brec-photos/ignited.JPG" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Single
-                  </div>
-                  <div class="project-name">
-                    Ignited
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/Brec-photos/Everyone's_Invited_cover.jpg">
-              <img class="img-fluid" src="img/Brec-photos/Everyone's_Invited_cover.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Single
-                  </div>
-                  <div class="project-name">
-                    Everyone's Invited
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/Brec-photos/Old_Ways_cover.jpg">
-              <img class="img-fluid" src="img/Brec-photos/Old_Ways_cover.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Single
-                  </div>
-                  <div class="project-name">
-                    Old Ways
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>-->
     <section class="bg-video" id="video">
       <div class="container">
         <div class="col-lg-8 mx-auto text-center">
           <div class="spotify-button">
             <iframe src="https://open.spotify.com/embed?uri=spotify:track:5imV6DmZyDP5KuuuovKFtS" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
           </div>
+          <button
+          class="snipcart-add-item btn btn-primary btn-xl"
+          data-item-id="1"
+          data-item-name="brec-shirt"
+          data-item-price="20.00"
+          data-item-weight=""
+          data-item-custom1-name="Size"
+          data-item-custom1-options="Small|Medium|Large"
+          data-item-url="https://2d01db5b.ngrok.io"
+          data-item-description="Brecreation T-shirt">
+              Buy Merch
+          </button>
         </div>
       </div>
     </section>
