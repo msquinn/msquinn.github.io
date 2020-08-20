@@ -31,8 +31,8 @@
   }
 }
 .btn-night {
-  background-color: $night;
-  border-color: $night;
+  background-color:$black;
+  border-color: $black;
   width: 50%;
   max-width: 162.6px;
 
@@ -40,7 +40,7 @@
   &:focus,
   &:active {
     color: $primary;
-    background-color: darken($night, 5%) !important;
+    background-color: darken($black, 5%) !important;
   }
   &:active,
   &:focus {
