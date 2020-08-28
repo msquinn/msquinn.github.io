@@ -113,17 +113,21 @@ img::-moz-selection {
   color: #b472d5;
 }
 
+#mainNav .navbar-nav {
+  border-color: 0;
+}
+
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
   font-size: .9rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: #000;
+  color: #adb5bd;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-  color: #b472d5;
+  color: #000;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,

@@ -1,7 +1,7 @@
 // Styling for the navbar
 #mainNav {
   border-bottom: 1px solid fade-out($gray-900, .9);
-  background-color: $black;
+  background-color:$black;
   @include sans-serif-font;
   @include transition-all;
   .navbar-brand {
@@ -15,15 +15,16 @@
     }
   }
   .navbar-nav {
+    border-color: red($color: #000000);
     > li.nav-item {
        > a.nav-link,
       > a.nav-link:focus {
         font-size: .9rem;
         font-weight: 700;
         text-transform: uppercase;
-        color: $black;
+        color: $gray-500;
         &:hover {
-          color: $primary;
+          color: $black;
         }
         &.active {
           color: $primary !important;
